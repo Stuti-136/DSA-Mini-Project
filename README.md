@@ -1,19 +1,26 @@
 # DSA-Mini-Project
 # Trie-based Word Suggestion System
+This project implements a dictionary-based word suggestion system using the Trie data structure. The program loads words from `words.txt`, inserts them into a Trie, and then provides auto-suggestions based on user input.
 
+## Features
+1. Efficient prefix-based word search
+2. Dynamic word suggestion
+3. Counts number of words matching the prefix
+4. Proper memory management using Trie cleanup
+   
 ## Development Workflow
-1. insertWord()
-2. searchPrefix()
-3. loadDictionary()
-4. getSuggestions()
-5. countWordsWithPrefix()
-6. freeTrie()
+1. insertWord() - Inserts words into the trie
+2. searchPrefix() - Finds the node corresponding to the given prefix
+3. loadDictionary() - Loads words from `words.txt`
+4. getSuggestions() - Retrieves all words matching the prefix
+5. countWordsWithPrefix() - Counts total matching words
+6. freeTrie() - Frees allocated trie memory
 
 ## File Structure
-`trie.h` → Header file containing structure definitions and function declarations 
-`trie.c` → Contains all the 6 functions
-`main.c` → Loads dictionary, handles input, and displays suggestions  
-`words.txt` → List of words used for suggestions
+`trie.h` - Header file containing structure definitions and function declarations 
+`trie.c` - Contains all Trie related functions
+`main.c` - Loads dictionary, handles input, and displays suggestions  
+`words.txt` - Dictionary file containing list of words used for suggestions
 
 ## How to Compile
 Use the following command:
