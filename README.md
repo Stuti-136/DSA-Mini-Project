@@ -1,7 +1,6 @@
 # DSA-Mini-Project
 # Trie-based Word Suggestion System
 
-
 ## Development Workflow
 1. insertWord()
 2. searchPrefix()
